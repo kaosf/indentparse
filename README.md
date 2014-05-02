@@ -1,14 +1,9 @@
-# indentparse
+# Indentparse
 
-A Clojure library designed to ... well, that part is up to you.
-
-## Usage
-
-FIXME
+A Clojure library designed to parse indentation text files.
 
 ## License
 
-Copyright © 2014 FIXME
+[MIT](http://opensource.org/licenses/MIT)
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Copyright © 2014 ka
