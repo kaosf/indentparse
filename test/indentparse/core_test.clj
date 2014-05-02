@@ -2,6 +2,13 @@
   (:require [clojure.test :refer :all]
             [indentparse.core :refer :all]))
 
-(deftest a-test
-  (testing "FIXME, I fail."
-    (is (= 0 1))))
+(deftest parse-test
+  (testing "parse test"
+    (is (= (parse
+"a
+  b
+  c
+d
+  e
+  f")
+           ["a" ["b" "c"] "d" ["e" "f"]]))))

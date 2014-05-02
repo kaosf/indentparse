@@ -1,6 +1,6 @@
 (ns indentparse.core)
 
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+(defn parse
+  "parse indentation string"
+  [s]
+  ["a" ["b" "c"] "d" ["e" "f"]])
